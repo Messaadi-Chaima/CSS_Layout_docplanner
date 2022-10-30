@@ -4,7 +4,7 @@ body {
     color: #747474;
     -webkit-font-smoothing: antialiased;
 }
-
+/* -----------------------------------------------Nav---------------------------------------------------- */
 nav{
     list-style: none;
     font-size: .9375rem;
@@ -47,7 +47,7 @@ nav ul{
     float: right;
     margin-right: 170px;
 }
-
+/* -------------------------------------------Section1---------------------------------------------------------- */
 .logo{
     display: block;
     margin: 0 auto;
@@ -84,4 +84,57 @@ nav ul{
 }
 .parag2{
     transform: translateY(67px);
+}
+/* ----------------------------------------Section2---------------------------------------------- */
+.section2{
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+    margin: 3.75rem auto 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transform: translateY(95px);
+}
+.elem1{
+    background: #00ccb1;
+}
+.elem{
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    width: 250px;
+    height: 300px;
+}
+.elem2{
+    background: #3d83df;
+}
+.elem3{
+    background: #1b2734;
+}
+.elem img{
+    margin-bottom: -0.4em;
+    width: 10%;
+    height: auto;
+    border: 0;
+}
+.section2 h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+}
+.section2 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
 }
