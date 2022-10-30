@@ -138,3 +138,82 @@ nav ul{
     margin: 0;
     color: #fff;
 }
+.elem1 select{
+    background-color: #00ccb1;
+    width: 160px;
+    border-color: #00ccb1;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 19px;
+    margin-bottom: 45px;
+}
+.elem2 select{
+    background-color: #3D83DF;
+    width: 160px;
+    border-color: #3D83DF;
+    color: #fff; 
+    text-decoration: underline;
+    font-size: 19px;
+    margin-bottom: 45px;
+}
+.elem3 select{
+    background-color: #1b2734;
+    border-color: #1b2734;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 19px;
+    margin-bottom: 45px;
+}
+.elem1 h1{
+    transform: translateY(-15px);
+}
+.elem2 h1{
+    transform: translateY(-15px);
+}
+.elem1 h2{
+    transform: translateY(-30px);
+}
+.elem2 h2{
+    transform: translateY(-30px);
+}
+/* --------------------------------------Section3---------------------------------------------- */
+.section3{
+    margin: 2.5rem auto 3.125rem;
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.brands__logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+    float: right;
+    filter: grayscale(1);
+}
+.brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+}
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: auto;
+}
+.section3 h1 {
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    color: #00b39b;
+    transform: translateY(110px);
+}
