@@ -385,3 +385,25 @@ nav ul{
     text-align: center;
     font-size: 12px;   
 }
+/*--------------------------------------------- Footer---------------------------------------------------- */
+footer{
+    height: 75px;
+    width: 100%;
+    border-top: 1px solid #eef2f2;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    /* line-height: 2.2; */
+    transform: translateY(130px);
+    padding-top: 30px;
+}
+footer a {
+    color: #3d83df;
+    text-decoration: none;
+    text-align: center;
+    outline: 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
