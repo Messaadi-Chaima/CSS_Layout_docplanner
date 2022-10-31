@@ -294,3 +294,24 @@ nav ul{
 .postion4{
     transform: translate(970px,-1160px);
 }
+/* ------------------------------------------Section5--------------------------------------------------------------- */
+.text-container {
+    width: 470px;
+    margin: 8% 31%;
+    text-align: center;
+
+}
+.text2{
+    font-size: .875em;
+    line-height: 1.7;
+}
+.text1{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.Section5{
+    transform: translateY(50px);
+}
